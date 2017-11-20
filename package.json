@@ -7,8 +7,10 @@
   "peerDependencies": {
     "eslint": ">= 4"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "eslint-plugin-compat": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-jest": "^21.3.2",
     "eslint": "^4.11.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
