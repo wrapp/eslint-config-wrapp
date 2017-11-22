@@ -9,7 +9,9 @@ module.exports = {
     "arrow-parens": [2, "always"],
     "max-len": ["error", 120, 2, {
       "ignoreUrls": true,
-      "ignoreComments": false
+      "ignoreComments": false,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
     }],
 
 

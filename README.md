@@ -2,7 +2,7 @@
 
 ## Install
 ```
-yarn add -D git+ssh://git@github.com:wrapp/eslint-config-wrapp.git
+yarn add -D git+ssh://git@github.com:wrapp/eslint-config-wrapp.git#[Commit hash here]
 ```
 ## .eslintrc.js example:
 
