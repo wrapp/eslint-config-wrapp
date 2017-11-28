@@ -1,11 +1,11 @@
 module.exports = {
-  "rules": {
-    "compat/compat": 2,
+  rules: {
+    'compat/compat': 2,
   },
-  "env": {
-    "browser": true,
+  env: {
+    browser: true,
   },
-  "plugins": [
-    "compat",
+  plugins: [
+    'compat',
   ],
 }
