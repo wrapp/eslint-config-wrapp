@@ -2,7 +2,7 @@ module.exports = {
   parser: 'babel-eslint',
   extends: [
     'airbnb-base',
-    'plugin:eslint-comments/recommended'
+    'plugin:eslint-comments/recommended',
   ],
   // plugin: 'eslint-comments',
   rules: {
