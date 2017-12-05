@@ -1,0 +1,5 @@
+{
+  "linters": {
+    "*.js": ["lint:fix"]
+  }
+}
