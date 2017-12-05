@@ -4,7 +4,6 @@ module.exports = {
     'airbnb-base',
     'plugin:eslint-comments/recommended',
   ],
-  // plugin: 'eslint-comments',
   rules: {
     semi: [2, 'never'],
     'arrow-body-style': 0,
@@ -17,10 +16,9 @@ module.exports = {
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
     }],
+    'function-paren-newline': ['error', 'consistent'],
 
     'import/prefer-default-export': 0,
     'import/newline-after-import': ['error', { count: 2 }],
-
-    'function-paren-newline': ['error', 'consistent'],
   },
 }
