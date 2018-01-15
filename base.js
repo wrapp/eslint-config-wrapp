@@ -20,5 +20,7 @@ module.exports = {
 
     'import/prefer-default-export': 0,
     'import/newline-after-import': ['error', { count: 2 }],
+
+    'object-curly-newline': 0,
   },
 }
