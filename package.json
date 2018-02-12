@@ -4,7 +4,6 @@
   "repository": "git@github.com:wrapp/eslint-config.git",
   "author": "emattias <mattiasha@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
