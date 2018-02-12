@@ -5,7 +5,5 @@ module.exports = {
   env: {
     browser: true,
   },
-  plugins: [
-    'compat',
-  ],
+  plugins: ['compat'],
 }

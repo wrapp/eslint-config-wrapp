@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    require.resolve('./base'),
-  ],
-};
+  extends: [require.resolve('./base')],
+}

@@ -4,25 +4,26 @@
   "repository": "git@github.com:wrapp/eslint-config.git",
   "author": "emattias <mattiasha@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": ">= 4"
-  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "format": "prettier --write '**/*.{js,jsx,graphql}'",
+    "format:check": "prettier -l '**/*.{js,jsx,graphql}'",
     "precommit": "lint-staged"
   },
   "dependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.11.0",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-compat": "^2.1.0",
     "eslint-plugin-eslint-comments": "^2.0.1",
     "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.10.2"
   },
   "devDependencies": {
     "husky": "^0.14.3",

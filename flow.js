@@ -1,9 +1,7 @@
 module.exports = {
-  extends: ['plugin:flowtype/recommended'],
+  extends: ['plugin:flowtype/recommended', 'eslint-config-prettier/flowtype'],
   rules: {
-    'flowtype/require-valid-file-annotation': [ 2, 'always' ],
+    'flowtype/require-valid-file-annotation': [2, 'always'],
   },
-  plugins: [
-    'flowtype',
-  ],
+  plugins: ['flowtype'],
 }
