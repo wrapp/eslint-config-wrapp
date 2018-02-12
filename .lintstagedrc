@@ -1,5 +1,10 @@
 {
-  "linters": {
-    "*.js": ["lint:fix"]
-  }
+    "linters": {
+        "*.js": [
+            "lint:fix"
+        ],
+        "*.{js, jsx, graphql}": [
+            "prettier --write"
+        ]
+    }
 }
