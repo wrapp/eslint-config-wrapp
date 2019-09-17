@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint:fix": "eslint --fix",
     "format": "prettier --write '**/*.{js,jsx,graphql}'",
     "format:check": "prettier -l '**/*.{js,jsx,graphql}'",
     "precommit": "lint-staged"
